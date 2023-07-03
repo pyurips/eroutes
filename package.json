@@ -3,10 +3,11 @@
   "version": "0.0.3",
   "description": "A simple library that helps organize routes in Express.",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "build": "tsup src",
+    "build": "tsup src --format cjs,esm --dts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
