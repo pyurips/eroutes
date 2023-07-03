@@ -1,17 +1,19 @@
-class Eroutes {
-    constructor() {
+import initializeRoutes from "./utils/initializeRoutes";
+import { routeStructure } from "./types/route-structure";
+import { Router } from "express";
 
-    }
+export default class Eroutes {
+  private routes: Array<routeStructure> = [];
 
-    static add(): void {
+  add(route: routeStructure): void {
+    this.routes.push(route);
+  }
 
-    }
+  getAll(): void {}
 
-    static getAll(): void {
+  get(): void {}
 
-    }
-
-    static get(): void {
-        
-    }
+  initializeRoutes(): Router {
+    return initializeRoutes(this.routes);
+  }
 }
