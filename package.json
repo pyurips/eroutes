@@ -4,8 +4,15 @@
   "description": "A simple library that helps organize routes in Express.",
   "main": "index.js",
   "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsup src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pablo Yuri (github.com/pyurips)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^7.1.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  }
 }
