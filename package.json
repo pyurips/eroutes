@@ -2,7 +2,8 @@
   "name": "eroutes",
   "version": "0.0.1",
   "description": "A simple library that helps organize routes in Express.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsup src",
