@@ -11,4 +11,4 @@ declare class Eroutes {
     initializeRoutes(): Router;
 }
 
-export { Eroutes as default };
+export { Eroutes };

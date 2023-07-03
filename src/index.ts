@@ -2,7 +2,7 @@ import initializeRoutes from "./utils/initializeRoutes";
 import { routeStructure } from "./types/route-structure";
 import { Router } from "express";
 
-export default class Eroutes {
+export class Eroutes {
   private routes: Array<routeStructure> = [];
 
   add(route: routeStructure): void {

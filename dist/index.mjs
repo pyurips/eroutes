@@ -21,5 +21,5 @@ var Eroutes = class {
   }
 };
 export {
-  Eroutes as default
+  Eroutes
 };
