@@ -1,6 +1,6 @@
 {
   "name": "eroutes",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A simple library that helps organize routes in Express.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
