@@ -9,9 +9,13 @@ export default class Eroutes {
     this.routes.push(route);
   }
 
-  getAll(): void {}
+  getAll(): Array<routeStructure> {
+    return this.routes;
+  }
 
-  get(): void {}
+  get(routeName: string): routeStructure | undefined {
+    return this.routes.find(element => element.route === routeName);
+  }
 
   initializeRoutes(): Router {
     return initializeRoutes(this.routes);
