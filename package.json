@@ -2,6 +2,16 @@
   "name": "eroutes",
   "version": "0.0.6",
   "description": "A simple library that helps organize routes in Express.",
+    "keywords": [
+    "express",
+    "http",
+    "web",
+    "rest",
+    "restful",
+    "router",
+    "app",
+    "api"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
