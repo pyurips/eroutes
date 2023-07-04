@@ -1,8 +1,8 @@
 {
   "name": "eroutes",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A simple library that helps organize routes in Express.",
-    "keywords": [
+  "keywords": [
     "express",
     "http",
     "web",
